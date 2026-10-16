@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joe Kabalin Photography</title>
+  <meta name="description" content="Landscape, wildlife, and travel photography by Joe Kabalin, based in Charlotte, NC. Iceland, Japan, Spain, Portugal, lighthouses, and America's national parks. Prints and digital files available.">
+  <meta property="og:title" content="Joe Kabalin Photography">
+  <meta property="og:description" content="Landscape, wildlife, and travel photography by Joe Kabalin, based in Charlotte, NC.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jkabalinphotography.github.io/">
+  <meta property="og:image" content="https://jkabalinphotography.github.io/photos/iceland-2023/kirkjufell.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://jkabalinphotography.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400;500&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">Joe Kabalin Photography</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <main id="home">
+    <section class="hero">
+      <div class="hero-slides" id="hero-slides"></div>
+      <div class="hero-overlay">
+        <p class="eyebrow">Landscapes &bull; Wildlife &bull; Travel</p>
+        <h1><span>Wild places,</span> <span>far roads,</span><br><span>&amp; the light between.</span></h1>
+        <a href="#collections" class="btn">View collections</a>
+      </div>
+      <div class="hero-controls">
+        <a class="hero-caption" id="hero-caption" href="#collections"></a>
+        <div class="hero-dots" id="hero-dots"></div>
+      </div>
+    </section>
+
+    <section id="collections" class="work">
+      <div class="section-head">
+        <h2>Collections</h2>
+        <div class="filters" aria-label="Filter collections"></div>
+      </div>
+      <div class="collection-grid" id="collection-grid"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="photos/about-joe-kirkjufell.jpg" alt="Joe Kabalin at Kirkjufell, Iceland" loading="lazy">
+      </div>
+      <div class="about-text">
+        <h2>About</h2>
+        <p>In 2023 I picked up a Canon R8 ahead of my first international trip to Iceland. Somewhere between the black-sand beaches, the waterfalls, and the countless puffins, I fell in love with photography.</p>
+        <p>Since then I've traveled across the United States and around the world chasing landscapes, wildlife, and the kind of light that makes you stop and look twice. That search has taken me from the trails of America's national parks to the coasts of Spain and Portugal to the streets of Japan.</p>
+        <p>Based in Charlotte, North Carolina.</p>
+        <p class="about-note">Prints and digital files are available. <a href="#contact">Get in touch</a> about any photo you see here.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in touch</h2>
+      <p>For prints, digital files, or collaborations:</p>
+      <a class="email" href="mailto:jkabalinphotography@gmail.com">jkabalinphotography@gmail.com</a>
+      <div class="socials">
+        <a href="https://www.instagram.com/joekabalinphotography/" target="_blank" rel="noopener">Instagram · @joekabalinphotography</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Single collection -->
+  <main id="collection-view" hidden>
+    <section class="collection-head">
+      <a href="#collections" class="back-link">&larr; All collections</a>
+      <p class="eyebrow" id="cv-meta"></p>
+      <h1 id="cv-title"></h1>
+      <p class="cv-description" id="cv-description"></p>
+      <p class="cv-count" id="cv-count"></p>
+    </section>
+    <div class="gallery" id="gallery"></div>
+    <nav class="collection-pager" aria-label="More collections">
+      <a id="cv-prev" class="pager-link prev"></a>
+      <a id="cv-next" class="pager-link next"></a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Joe Kabalin Photography. All rights reserved.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-prev" aria-label="Previous photo">&#8249;</button>
+    <figure>
+      <img id="lb-img" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next photo">&#8250;</button>
+  </div>
+
+  <script src="collections.js"></script>
+  <script src="slideshow.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
