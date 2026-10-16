@@ -4,10 +4,8 @@
   --text: #ededed;
   --muted: #9a9a9a;
   --accent: #d9c7a3;
-  --serif: "Cormorant Garamond", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font: "Josefin Sans", system-ui, -apple-system, sans-serif;
   --gutter: clamp(16px, 4vw, 48px);
-  --watermark: "Josefin Sans", var(--sans);
   --header-h: 72px;
 }
 
@@ -15,16 +13,18 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: var(--sans);
-  font-weight: 300;
+  font-family: var(--font);
+  font-weight: 400;
+  font-variant: small-caps;   /* watermark style: full-height capitals, small caps for the rest */
+  letter-spacing: .06em;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 img { display: block; max-width: 100%; }
 [hidden] { display: none !important; }
 a { color: inherit; text-decoration: none; }
-h1, h2 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
-h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
+h1, h2, h3 { font-weight: 300; line-height: 1.2; letter-spacing: .14em; }
+h2 { font-size: clamp(1.8rem, 3.6vw, 2.4rem); }
 
 /* Header */
 .site-header {
@@ -37,13 +37,12 @@ h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
 }
 .site-header.scrolled { border-bottom-color: #222; }
 .logo {
-  font-family: var(--watermark); font-weight: 300;
-  font-variant: small-caps; font-size: clamp(1.05rem, 2.2vw, 1.4rem);
+  font-weight: 300; font-size: clamp(1.05rem, 2.2vw, 1.4rem);
   letter-spacing: .24em; white-space: nowrap;
 }
 .site-nav { display: flex; gap: 32px; }
 .site-nav a {
-  font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted);
+  font-size: .9rem; letter-spacing: .18em; color: var(--muted);
   transition: color .2s;
 }
 .site-nav a:hover { color: var(--text); }
@@ -71,7 +70,7 @@ h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
   display: flex; flex-direction: column; align-items: flex-end; gap: 14px;
 }
 .hero-caption {
-  font-size: .7rem; letter-spacing: .2em; text-transform: uppercase;
+  font-size: .8rem; letter-spacing: .2em;
   color: rgba(255,255,255,.85); text-shadow: 0 1px 8px rgba(0,0,0,.5);
   transition: opacity .4s;
 }
@@ -95,13 +94,16 @@ h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
     linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0) 55%),
     linear-gradient(to right, rgba(0,0,0,.45), rgba(0,0,0,0) 65%);
 }
-.eyebrow { font-size: .75rem; letter-spacing: .3em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
-.hero h1 { font-size: clamp(2.25rem, 6vw, 5rem); margin-bottom: 32px; text-shadow: 0 2px 24px rgba(0,0,0,.35); }
+.eyebrow { font-size: .85rem; letter-spacing: .3em; color: var(--accent); margin-bottom: 12px; }
+.hero h1 {
+  letter-spacing: .1em; line-height: 1.15;
+  font-size: clamp(1.9rem, 4.6vw, 3.9rem); margin-bottom: 32px; text-shadow: 0 2px 24px rgba(0,0,0,.35);
+}
 .hero h1 span { display: inline-block; }
 .btn {
   align-self: flex-start;
   border: 1px solid rgba(255,255,255,.5); padding: 12px 28px;
-  font-size: .75rem; letter-spacing: .2em; text-transform: uppercase;
+  font-size: .85rem; letter-spacing: .2em;
   transition: background .2s, color .2s;
 }
 .btn:hover { background: var(--text); color: var(--bg); }
@@ -112,7 +114,7 @@ h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .filters button {
   background: none; border: 1px solid transparent; color: var(--muted); cursor: pointer;
-  font: 400 .75rem var(--sans); letter-spacing: .16em; text-transform: uppercase;
+  font: inherit; font-size: .85rem; letter-spacing: .16em;
   padding: 8px 14px; border-radius: 999px; transition: color .2s, border-color .2s;
 }
 .filters button:hover { color: var(--text); }
@@ -132,10 +134,10 @@ h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
 .collection-card:hover .card-img img { transform: scale(1.04); filter: brightness(.85); }
 .collection-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .card-text { padding-top: 14px; }
-.card-text h3 { font-family: var(--serif); font-weight: 400; font-size: 1.6rem; line-height: 1.2; }
+.card-text h3 { font-size: 1.35rem; }
 .card-text p {
   display: flex; justify-content: space-between; gap: 12px; margin-top: 4px;
-  font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+  font-size: .85rem; letter-spacing: .14em; color: var(--muted);
 }
 .card-text p span { white-space: nowrap; }
 
@@ -145,23 +147,23 @@ section[id] { scroll-margin-top: var(--header-h); }
 .collection-head { max-width: 760px; margin-bottom: clamp(40px, 6vw, 72px); }
 .back-link {
   display: inline-block; margin-bottom: 32px;
-  font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; color: var(--muted);
+  font-size: .85rem; letter-spacing: .16em; color: var(--muted);
 }
 .back-link:hover { color: var(--text); }
-.collection-head h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+.collection-head h1 { font-size: clamp(2.2rem, 5vw, 3.75rem); }
 .cv-description { color: var(--muted); font-size: 1.05rem; margin-top: 20px; max-width: 60ch; }
-.cv-count { margin-top: 16px; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.cv-count { margin-top: 16px; font-size: .85rem; letter-spacing: .14em; color: var(--muted); }
 
 .collection-pager {
   display: flex; justify-content: space-between; gap: 24px;
   margin-top: clamp(48px, 8vw, 96px); padding: 40px 0 clamp(56px, 8vw, 96px);
   border-top: 1px solid #222;
 }
-.pager-link { font-family: var(--serif); font-size: clamp(1.3rem, 3vw, 2rem); line-height: 1.2; transition: color .2s; }
+.pager-link { font-weight: 300; font-size: clamp(1.15rem, 2.6vw, 1.6rem); letter-spacing: .12em; line-height: 1.3; transition: color .2s; }
 .pager-link:hover { color: var(--accent); }
 .pager-link small {
-  display: block; margin-bottom: 6px; font-family: var(--sans);
-  font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted);
+  display: block; margin-bottom: 6px;
+  font-size: .8rem; letter-spacing: .2em; color: var(--muted);
 }
 .pager-link.prev small::before { content: "\2190  "; }
 .pager-link.next { text-align: right; }
@@ -192,7 +194,7 @@ section[id] { scroll-margin-top: var(--header-h); }
 }
 .about-img img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
 .about-text h2 { margin-bottom: 24px; }
-.about-text p { color: var(--muted); max-width: 52ch; margin-bottom: 16px; font-size: 1.05rem; }
+.about-text p { color: var(--muted); max-width: 56ch; margin-bottom: 16px; font-size: 1.05rem; line-height: 1.8; }
 .about-note { margin-top: 28px; padding-top: 20px; border-top: 1px solid #2a2a2a; }
 .about-note a { color: var(--text); border-bottom: 1px solid var(--accent); }
 .about-note a:hover { color: var(--accent); }
@@ -201,14 +203,14 @@ section[id] { scroll-margin-top: var(--header-h); }
 .contact { text-align: center; padding: clamp(80px, 12vw, 160px) var(--gutter); }
 .contact p { color: var(--muted); margin: 12px 0 24px; }
 .email {
-  font-family: var(--serif); font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 300; font-size: clamp(1.3rem, 3.4vw, 2.1rem); letter-spacing: .1em;
   border-bottom: 1px solid var(--accent); padding-bottom: 4px; overflow-wrap: anywhere;
 }
 .socials { margin-top: 32px; display: flex; justify-content: center; gap: 24px; }
-.socials a { font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.socials a { font-size: .85rem; letter-spacing: .2em; color: var(--muted); }
 .socials a:hover { color: var(--text); }
 
-.site-footer { text-align: center; padding: 32px var(--gutter); font-size: .75rem; color: var(--muted); border-top: 1px solid #222; }
+.site-footer { text-align: center; padding: 32px var(--gutter); font-size: .85rem; color: var(--muted); border-top: 1px solid #222; }
 
 /* Lightbox */
 .lightbox {
@@ -237,7 +239,7 @@ section[id] { scroll-margin-top: var(--header-h); }
     position: fixed; inset: 0; flex-direction: column; align-items: center; justify-content: center; gap: 36px;
     background: var(--bg); opacity: 0; pointer-events: none; transition: opacity .3s;
   }
-  .site-nav a { font-size: 1rem; }
+  .site-nav a { font-size: 1.1rem; }
   .menu-open .site-nav { opacity: 1; pointer-events: auto; }
   .about { grid-template-columns: 1fr; }
   .hero-controls { left: var(--gutter); right: auto; bottom: 20px; align-items: flex-start; }
