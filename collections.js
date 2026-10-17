@@ -639,5 +639,39 @@ const COLLECTIONS = [
         "caption": "Sea oats on the Outer Banks"
       }
     ]
+  },
+  {
+    "slug": "utah",
+    "title": "Utah",
+    "year": "",
+    "group": "United States",
+    "description": "",
+    "cover": "photos/utah/03-corona-arch.jpg",
+    "photos": [
+      {
+        "src": "photos/utah/01-corona-arch-trail-cliffs.jpg",
+        "caption": "Along the Corona Arch Trail, Moab"
+      },
+      {
+        "src": "photos/utah/02-corona-arch-trail-juniper.jpg",
+        "caption": "Juniper on the Corona Arch Trail"
+      },
+      {
+        "src": "photos/utah/03-corona-arch.jpg",
+        "caption": "Corona Arch"
+      },
+      {
+        "src": "photos/utah/04-beneath-corona-arch.jpg",
+        "caption": "Beneath Corona Arch"
+      },
+      {
+        "src": "photos/utah/05-corona-arch-glow.jpg",
+        "caption": "Corona Arch"
+      },
+      {
+        "src": "photos/utah/06-juniper-at-dusk.jpg",
+        "caption": "Juniper at dusk"
+      }
+    ]
   }
 ];

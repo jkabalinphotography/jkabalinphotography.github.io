@@ -25,6 +25,7 @@ The home page shows a grid of collections; each one opens its own gallery at a s
    | South Dakota 2026 | `photos/south-dakota-2026/` |
    | Badlands National Park 2026 | `photos/badlands-2026/` |
    | North Carolina | `photos/north-carolina/` |
+   | Utah | `photos/utah/` |
 
 3. Run, from this folder:
    ```bash
