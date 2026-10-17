@@ -21,7 +21,7 @@ const SLIDESHOW = [
   { src: "photos/japan-2026/senso-ji.jpg",                    collection: "japan-2026" },
   { src: "photos/slideshow/bodie-island-lighthouse.jpg",      collection: "lighthouses" },
   { src: "photos/japan-2026/hiroshima-castle.jpg",            collection: "japan-2026" },
-  { src: "photos/arches-2024/delicate-arch.jpg",              collection: "arches-2024" },
+  { src: "photos/slideshow/delicate-arch.jpg",                collection: "arches-2024" },
   { src: "photos/japan-2026/shitenno-ji.jpg",                 collection: "japan-2026" },
-  { src: "photos/canyonlands-2024/mesa-arch.jpg",             collection: "canyonlands-2024" },
+  { src: "photos/slideshow/mesa-arch.jpg",                    collection: "canyonlands-2024" },
 ];

@@ -289,6 +289,10 @@ const COLLECTIONS = [
     "cover": "photos/wildlife/iceland-puffin-with-catch.jpg",
     "photos": [
       {
+        "src": "photos/wildlife/canyonlands-lizard.jpg",
+        "caption": "Lizard, Canyonlands National Park"
+      },
+      {
         "src": "photos/wildlife/iceland-arctic-fox-closeup.jpg",
         "caption": "Arctic fox"
       },
@@ -360,11 +364,111 @@ const COLLECTIONS = [
     "year": "2024",
     "group": "National Parks",
     "description": "",
-    "cover": "photos/arches-2024/delicate-arch.jpg",
+    "cover": "photos/arches-2024/12-delicate-arch.jpg",
     "photos": [
       {
-        "src": "photos/arches-2024/delicate-arch.jpg",
+        "src": "photos/arches-2024/01-tunnel-arch.jpg",
+        "caption": "Tunnel Arch"
+      },
+      {
+        "src": "photos/arches-2024/02-pine-tree-arch.jpg",
+        "caption": "Pine Tree Arch"
+      },
+      {
+        "src": "photos/arches-2024/03-landscape-arch.jpg",
+        "caption": "Landscape Arch"
+      },
+      {
+        "src": "photos/arches-2024/04-partition-arch.jpg",
+        "caption": "Partition Arch"
+      },
+      {
+        "src": "photos/arches-2024/05-double-o-arch.jpg",
+        "caption": "Double O Arch"
+      },
+      {
+        "src": "photos/arches-2024/06-devils-garden-fins.jpg",
+        "caption": "Fins of Devils Garden"
+      },
+      {
+        "src": "photos/arches-2024/07-double-o-arch-2.jpg",
+        "caption": "Double O Arch"
+      },
+      {
+        "src": "photos/arches-2024/08-devils-garden-panorama.jpg",
+        "caption": "Devils Garden"
+      },
+      {
+        "src": "photos/arches-2024/09-skyline-arch.jpg",
+        "caption": "Skyline Arch"
+      },
+      {
+        "src": "photos/arches-2024/10-devils-garden-panorama-2.jpg",
+        "caption": "Devils Garden"
+      },
+      {
+        "src": "photos/arches-2024/11-sand-dune-arch.jpg",
+        "caption": "Sand Dune Arch"
+      },
+      {
+        "src": "photos/arches-2024/12-delicate-arch.jpg",
         "caption": "Delicate Arch"
+      },
+      {
+        "src": "photos/arches-2024/13-delicate-arch-dusk.jpg",
+        "caption": "Delicate Arch at dusk"
+      },
+      {
+        "src": "photos/arches-2024/14-delicate-arch-bw.jpg",
+        "caption": "Delicate Arch"
+      },
+      {
+        "src": "photos/arches-2024/15-delicate-arch-sunset.jpg",
+        "caption": "Delicate Arch at sunset"
+      },
+      {
+        "src": "photos/arches-2024/16-delicate-arch-panorama.jpg",
+        "caption": "Delicate Arch"
+      },
+      {
+        "src": "photos/arches-2024/17-devils-garden-trail-sunset.jpg",
+        "caption": "Devils Garden Trail at sunset"
+      },
+      {
+        "src": "photos/arches-2024/18-skyline-arch-panorama.jpg",
+        "caption": "Skyline Arch"
+      },
+      {
+        "src": "photos/arches-2024/19-alcove-panorama.jpg",
+        "caption": "Tapestry Arch"
+      },
+      {
+        "src": "photos/arches-2024/20-windows-section-storm.jpg",
+        "caption": "Parade of Elephants and the Cove of Caves, Windows Section"
+      },
+      {
+        "src": "photos/arches-2024/21-park-avenue.jpg",
+        "caption": "Park Avenue"
+      },
+      {
+        "src": "photos/arches-2024/22-turret-arch.jpg",
+        "caption": "Turret Arch"
+      },
+      {
+        "src": "photos/arches-2024/23-three-gossips.jpg",
+        "caption": "The Three Gossips"
+      },
+      {
+        "src": "photos/arches-2024/24-turret-arch-2.jpg",
+        "caption": "Turret Arch"
+      },
+      {
+        "src": "photos/arches-2024/25-parade-of-elephants.jpg",
+        "caption": "Parade of Elephants"
+      },
+      {
+        "src": "photos/arches-2024/26-turret-arch-through-north-window.jpg",
+        "caption": "Turret Arch through North Window"
       }
     ]
   },
@@ -374,11 +478,107 @@ const COLLECTIONS = [
     "year": "2024",
     "group": "National Parks",
     "description": "",
-    "cover": "photos/canyonlands-2024/mesa-arch.jpg",
+    "cover": "photos/canyonlands-2024/07-mesa-arch-sunrise.jpg",
     "photos": [
       {
-        "src": "photos/canyonlands-2024/mesa-arch.jpg",
+        "src": "photos/canyonlands-2024/01-lizard.jpg",
+        "caption": "Lizard on sandstone"
+      },
+      {
+        "src": "photos/canyonlands-2024/02-canyon-view.jpg",
+        "caption": "Island in the Sky"
+      },
+      {
+        "src": "photos/canyonlands-2024/03-mesa-arch-moon.jpg",
+        "caption": "Moonset through Mesa Arch"
+      },
+      {
+        "src": "photos/canyonlands-2024/04-mesa-arch-sunburst.jpg",
+        "caption": "Sunrise at Mesa Arch"
+      },
+      {
+        "src": "photos/canyonlands-2024/05-pinyon-pine-sunrise.jpg",
+        "caption": "Pinyon pine at sunrise"
+      },
+      {
+        "src": "photos/canyonlands-2024/06-mesa-arch-glow.jpg",
+        "caption": "Mesa Arch"
+      },
+      {
+        "src": "photos/canyonlands-2024/07-mesa-arch-sunrise.jpg",
         "caption": "Mesa Arch at sunrise"
+      },
+      {
+        "src": "photos/canyonlands-2024/08-canyon-panorama.jpg",
+        "caption": "Island in the Sky"
+      },
+      {
+        "src": "photos/canyonlands-2024/09-shafer-trail.jpg",
+        "caption": "Shafer Trail"
+      },
+      {
+        "src": "photos/canyonlands-2024/10-green-river-overlook.jpg",
+        "caption": "Green River Overlook"
+      },
+      {
+        "src": "photos/canyonlands-2024/11-candlestick-tower.jpg",
+        "caption": "Candlestick Tower"
+      },
+      {
+        "src": "photos/canyonlands-2024/12-grand-view-point.jpg",
+        "caption": "Grand View Point"
+      },
+      {
+        "src": "photos/canyonlands-2024/13-needles-spires.jpg",
+        "caption": "The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/14-needles-wall.jpg",
+        "caption": "The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/15-needles-storm-panorama.jpg",
+        "caption": "The Needles under storm clouds"
+      },
+      {
+        "src": "photos/canyonlands-2024/16-needles-panorama.jpg",
+        "caption": "The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/17-needles-trail.jpg",
+        "caption": "Trail through the Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/18-needles-spire-storm.jpg",
+        "caption": "Sandstone spire under storm clouds, The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/19-needles-banded-spires.jpg",
+        "caption": "The Needles under storm clouds"
+      },
+      {
+        "src": "photos/canyonlands-2024/20-needles-caprock-towers.jpg",
+        "caption": "Caprock towers, The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/21-needles-sandstone-tower.jpg",
+        "caption": "Sandstone tower, The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/22-needles-panorama-2.jpg",
+        "caption": "The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/23-needles-saltbush.jpg",
+        "caption": "Fourwing saltbush, The Needles"
+      },
+      {
+        "src": "photos/canyonlands-2024/24-needles-banded-spires-panorama.jpg",
+        "caption": "The Needles under storm clouds"
+      },
+      {
+        "src": "photos/canyonlands-2024/25-needles-panorama-3.jpg",
+        "caption": "The Needles"
       }
     ]
   },
@@ -671,6 +871,22 @@ const COLLECTIONS = [
       {
         "src": "photos/utah/06-juniper-at-dusk.jpg",
         "caption": "Juniper at dusk"
+      },
+      {
+        "src": "photos/utah/07-goblin-valley.jpg",
+        "caption": "Goblin Valley State Park"
+      },
+      {
+        "src": "photos/utah/08-goblin-valley-2.jpg",
+        "caption": "Goblin Valley State Park"
+      },
+      {
+        "src": "photos/utah/09-sandstone-layers.jpg",
+        "caption": "Sandstone layers"
+      },
+      {
+        "src": "photos/utah/10-cottonwoods-autumn.jpg",
+        "caption": "Cottonwoods in autumn"
       }
     ]
   }
