@@ -783,48 +783,6 @@ const COLLECTIONS = [
     ]
   },
   {
-    "slug": "capitol-reef-2025",
-    "title": "Capitol Reef National Park",
-    "year": "2025",
-    "group": "National Parks",
-    "description": "",
-    "cover": "https://picsum.photos/seed/capitol-reef-2025-1/1200/800",
-    "photos": [
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-1/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-2/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-3/800/1100",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-4/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-5/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-6/800/1100",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-7/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/capitol-reef-2025-8/1200/800",
-        "caption": ""
-      }
-    ]
-  },
-  {
     "slug": "spain-2026",
     "title": "Spain",
     "year": "2026",

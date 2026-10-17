@@ -18,7 +18,6 @@ The home page shows a grid of collections; each one opens its own gallery at a s
    | Canyonlands National Park 2024 | `photos/canyonlands-2024/` |
    | Zion National Park 2025 | `photos/zion-2025/` |
    | Bryce Canyon National Park 2025 | `photos/bryce-canyon-2025/` |
-   | Capitol Reef National Park 2025 | `photos/capitol-reef-2025/` |
    | Spain 2026 | `photos/spain-2026/` |
    | Portugal 2026 | `photos/portugal-2026/` |
    | Japan 2026 | `photos/japan-2026/` |
