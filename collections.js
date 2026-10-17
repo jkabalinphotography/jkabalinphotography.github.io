@@ -369,6 +369,26 @@ const COLLECTIONS = [
         "caption": "Atlantic puffins"
       },
       {
+        "src": "photos/wildlife/japan-deer-at-nandaimon.jpg",
+        "caption": "Deer at the Nandaimon, Tōdai-ji"
+      },
+      {
+        "src": "photos/wildlife/japan-koi-kohaku.jpg",
+        "caption": "Koi, Japan"
+      },
+      {
+        "src": "photos/wildlife/japan-koi-showa.jpg",
+        "caption": "Koi, Japan"
+      },
+      {
+        "src": "photos/wildlife/japan-koi.jpg",
+        "caption": "Koi, Japan"
+      },
+      {
+        "src": "photos/wildlife/japan-nara-deer.jpg",
+        "caption": "Sika deer, Nara"
+      },
+      {
         "src": "photos/wildlife/portugal-muscovy-duck.jpg",
         "caption": "Muscovy duck"
       },
@@ -1168,31 +1188,259 @@ const COLLECTIONS = [
     "year": "2026",
     "group": "International",
     "description": "",
-    "cover": "photos/japan-2026/itsukushima-torii.jpg",
+    "cover": "photos/japan-2026/02-hozomon-and-pagoda.jpg",
     "photos": [
       {
-        "src": "photos/japan-2026/himeji-castle.jpg",
+        "src": "photos/japan-2026/01-kaminarimon.jpg",
+        "caption": "Kaminarimon, Sensō-ji, Tokyo"
+      },
+      {
+        "src": "photos/japan-2026/02-hozomon-and-pagoda.jpg",
+        "caption": "Hōzōmon and the five-story pagoda, Sensō-ji"
+      },
+      {
+        "src": "photos/japan-2026/03-hozomon-waraji.jpg",
+        "caption": "Giant straw sandals on the Hōzōmon, Sensō-ji"
+      },
+      {
+        "src": "photos/japan-2026/04-senso-ji-main-hall.jpg",
+        "caption": "Main hall of Sensō-ji"
+      },
+      {
+        "src": "photos/japan-2026/05-komainu.jpg",
+        "caption": "Komainu guardian lion, Sensō-ji"
+      },
+      {
+        "src": "photos/japan-2026/06-nezu-shrine-torii.jpg",
+        "caption": "Nezu Shrine, Tokyo"
+      },
+      {
+        "src": "photos/japan-2026/07-nezu-shrine-torii-tunnel.jpg",
+        "caption": "Torii tunnel, Nezu Shrine"
+      },
+      {
+        "src": "photos/japan-2026/08-imperial-palace-moat.jpg",
+        "caption": "Imperial Palace moat, Tokyo"
+      },
+      {
+        "src": "photos/japan-2026/09-hydrangea.jpg",
+        "caption": "Hydrangea"
+      },
+      {
+        "src": "photos/japan-2026/10-fujimi-yagura.jpg",
+        "caption": "Fujimi-yagura, Imperial Palace"
+      },
+      {
+        "src": "photos/japan-2026/11-tokyo-tower.jpg",
+        "caption": "Tokyo Tower"
+      },
+      {
+        "src": "photos/japan-2026/12-gotokuji-pagoda.jpg",
+        "caption": "Three-story pagoda, Gōtokuji"
+      },
+      {
+        "src": "photos/japan-2026/13-gotokuji-maneki-neko.jpg",
+        "caption": "Maneki-neko, Gōtokuji"
+      },
+      {
+        "src": "photos/japan-2026/14-meiji-jingu-torii.jpg",
+        "caption": "Torii at Meiji Jingu"
+      },
+      {
+        "src": "photos/japan-2026/15-meiji-jingu-sake-barrels.jpg",
+        "caption": "Sake barrels at Meiji Jingu"
+      },
+      {
+        "src": "photos/japan-2026/16-ueno-toshogu.jpg",
+        "caption": "Bronze lanterns at Ueno Tōshō-gū"
+      },
+      {
+        "src": "photos/japan-2026/17-kaneiji-pagoda.jpg",
+        "caption": "Five-story pagoda of Kan'ei-ji, Ueno"
+      },
+      {
+        "src": "photos/japan-2026/18-osaka-castle.jpg",
+        "caption": "Osaka Castle"
+      },
+      {
+        "src": "photos/japan-2026/19-osaka-castle-gozabune.jpg",
+        "caption": "Gozabune boat on the Osaka Castle moat"
+      },
+      {
+        "src": "photos/japan-2026/20-osaka-castle-panorama.jpg",
+        "caption": "Osaka Castle and its moat"
+      },
+      {
+        "src": "photos/japan-2026/21-osaka-castle-through-trees.jpg",
+        "caption": "Osaka Castle"
+      },
+      {
+        "src": "photos/japan-2026/22-shitenno-ji.jpg",
+        "caption": "Shitennō-ji in the rain, Osaka"
+      },
+      {
+        "src": "photos/japan-2026/23-osaka-castle-bridge.jpg",
+        "caption": "Osaka Castle"
+      },
+      {
+        "src": "photos/japan-2026/24-nara-deer.jpg",
+        "caption": "Sika deer, Nara"
+      },
+      {
+        "src": "photos/japan-2026/25-todaiji-chumon.jpg",
+        "caption": "Chūmon gate, Tōdai-ji, Nara"
+      },
+      {
+        "src": "photos/japan-2026/26-todaiji-daibutsuden.jpg",
+        "caption": "Daibutsuden, Tōdai-ji, Nara"
+      },
+      {
+        "src": "photos/japan-2026/27-deer-at-nandaimon.jpg",
+        "caption": "Deer at the Nandaimon, Tōdai-ji"
+      },
+      {
+        "src": "photos/japan-2026/28-himeji-castle.jpg",
         "caption": "Himeji Castle"
       },
       {
-        "src": "photos/japan-2026/hiroshima-castle.jpg",
+        "src": "photos/japan-2026/29-miyajima-stone-torii.jpg",
+        "caption": "Stone torii and komainu, Miyajima"
+      },
+      {
+        "src": "photos/japan-2026/30-daisho-in-roof.jpg",
+        "caption": "Daishō-in, Miyajima"
+      },
+      {
+        "src": "photos/japan-2026/31-hiroshima-castle.jpg",
         "caption": "Hiroshima Castle"
       },
       {
-        "src": "photos/japan-2026/itsukushima-torii.jpg",
-        "caption": "Itsukushima Shrine, Miyajima"
+        "src": "photos/japan-2026/32-koi.jpg",
+        "caption": "Koi"
       },
       {
-        "src": "photos/japan-2026/kinkaku-ji.jpg",
-        "caption": "Kinkaku-ji, Kyoto"
+        "src": "photos/japan-2026/33-flag-of-japan.jpg",
+        "caption": "Flag of Japan"
       },
       {
-        "src": "photos/japan-2026/senso-ji.jpg",
-        "caption": "Sensō-ji, Tokyo"
+        "src": "photos/japan-2026/34-atomic-bomb-dome.jpg",
+        "caption": "Atomic Bomb Dome, Hiroshima"
       },
       {
-        "src": "photos/japan-2026/shitenno-ji.jpg",
-        "caption": "Shitennō-ji, Osaka"
+        "src": "photos/japan-2026/35-hiroshima-peace-park-panorama.jpg",
+        "caption": "Atomic Bomb Dome and the Motoyasu River, Hiroshima"
+      },
+      {
+        "src": "photos/japan-2026/36-itsukushima-torii.jpg",
+        "caption": "Great Torii of Itsukushima Shrine, Miyajima"
+      },
+      {
+        "src": "photos/japan-2026/37-itsukushima-torii-pine.jpg",
+        "caption": "Great Torii of Itsukushima Shrine, Miyajima"
+      },
+      {
+        "src": "photos/japan-2026/38-katsuoji-gate.jpg",
+        "caption": "Sanmon gate, Katsuō-ji"
+      },
+      {
+        "src": "photos/japan-2026/39-katsuoji-daruma.jpg",
+        "caption": "Daruma at Katsuō-ji"
+      },
+      {
+        "src": "photos/japan-2026/40-katsuoji-hydrangeas.jpg",
+        "caption": "Hydrangeas at Katsuō-ji"
+      },
+      {
+        "src": "photos/japan-2026/41-katsuoji-daruma-pile.jpg",
+        "caption": "Daruma at Katsuō-ji"
+      },
+      {
+        "src": "photos/japan-2026/42-koi-showa.jpg",
+        "caption": "Koi"
+      },
+      {
+        "src": "photos/japan-2026/43-koi-kohaku.jpg",
+        "caption": "Koi"
+      },
+      {
+        "src": "photos/japan-2026/44-imperial-palace-moat-pines.jpg",
+        "caption": "Imperial Palace moat, Tokyo"
+      },
+      {
+        "src": "photos/japan-2026/45-tokyo-station.jpg",
+        "caption": "Tokyo Station at dusk"
+      },
+      {
+        "src": "photos/japan-2026/46-kiyomizu-dera-dragon.jpg",
+        "caption": "Dragon fountain, Kiyomizu-dera, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/47-kiyomizu-dera-pagoda-and-gate.jpg",
+        "caption": "Three-story pagoda and West Gate, Kiyomizu-dera"
+      },
+      {
+        "src": "photos/japan-2026/48-kiyomizu-dera-main-hall.jpg",
+        "caption": "Main hall and stage of Kiyomizu-dera"
+      },
+      {
+        "src": "photos/japan-2026/49-kiyomizu-dera-pagoda.jpg",
+        "caption": "Kiyomizu-dera, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/50-kiyomizu-dera-panorama.jpg",
+        "caption": "Kiyomizu-dera, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/51-yasaka-pagoda.jpg",
+        "caption": "Yasaka Pagoda, Higashiyama, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/52-gotokuji-maneki-neko-crowd.jpg",
+        "caption": "Maneki-neko, Gōtokuji"
+      },
+      {
+        "src": "photos/japan-2026/53-yanagidani-kannon-hydrangeas.jpg",
+        "caption": "Hydrangeas at Yanagidani Kannon Yōkoku-ji, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/54-kyoto-imperial-palace-garden.jpg",
+        "caption": "Garden pond and stone lantern, Kyoto Imperial Palace"
+      },
+      {
+        "src": "photos/japan-2026/55-kyoto-imperial-palace-roof.jpg",
+        "caption": "Chrysanthemum crest on a roof gable, Kyoto Imperial Palace"
+      },
+      {
+        "src": "photos/japan-2026/56-fushimi-inari-torii-lantern.jpg",
+        "caption": "Torii and lantern, Fushimi Inari Taisha"
+      },
+      {
+        "src": "photos/japan-2026/57-fushimi-inari-senbon-torii.jpg",
+        "caption": "Senbon Torii, Fushimi Inari Taisha"
+      },
+      {
+        "src": "photos/japan-2026/58-kinkaku-ji.jpg",
+        "caption": "Kinkaku-ji, the Golden Pavilion, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/59-kinkaku-ji-panorama.jpg",
+        "caption": "Kinkaku-ji and Kyōko-chi pond"
+      },
+      {
+        "src": "photos/japan-2026/60-kinkaku-ji-2.jpg",
+        "caption": "Kinkaku-ji, the Golden Pavilion, Kyoto"
+      },
+      {
+        "src": "photos/japan-2026/61-osaka-castle-garden.jpg",
+        "caption": "Osaka Castle from the Nishinomaru Garden"
+      },
+      {
+        "src": "photos/japan-2026/62-katsuoji-red-daruma.jpg",
+        "caption": "Daruma at Katsuō-ji"
+      },
+      {
+        "src": "photos/japan-2026/63-yanagidani-kannon-hydrangea-stairs.jpg",
+        "caption": "Hydrangea stairway, Yanagidani Kannon Yōkoku-ji"
       }
     ]
   },
