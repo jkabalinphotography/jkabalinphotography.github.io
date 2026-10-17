@@ -355,6 +355,22 @@ const COLLECTIONS = [
       {
         "src": "photos/wildlife/peacock.jpg",
         "caption": "Peacock"
+      },
+      {
+        "src": "photos/wildlife/zion-bighorn-sheep-2.jpg",
+        "caption": "Desert bighorn sheep, Zion National Park"
+      },
+      {
+        "src": "photos/wildlife/zion-bighorn-sheep.jpg",
+        "caption": "Desert bighorn sheep, Zion National Park"
+      },
+      {
+        "src": "photos/wildlife/zion-chipmunk-2.jpg",
+        "caption": "Cliff chipmunk, Zion National Park"
+      },
+      {
+        "src": "photos/wildlife/zion-chipmunk.jpg",
+        "caption": "Cliff chipmunk, Zion National Park"
       }
     ]
   },
@@ -588,39 +604,63 @@ const COLLECTIONS = [
     "year": "2025",
     "group": "National Parks",
     "description": "",
-    "cover": "https://picsum.photos/seed/zion-2025-1/1200/800",
+    "cover": "photos/zion-2025/04-zion-canyon-virgin-river.jpg",
     "photos": [
       {
-        "src": "https://picsum.photos/seed/zion-2025-1/1200/800",
-        "caption": ""
+        "src": "photos/zion-2025/01-the-narrows.jpg",
+        "caption": "The Narrows and the Virgin River"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-2/1200/800",
-        "caption": ""
+        "src": "photos/zion-2025/02-great-white-throne.jpg",
+        "caption": "Great White Throne"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-3/800/1100",
-        "caption": ""
+        "src": "photos/zion-2025/03-great-white-throne-panorama.jpg",
+        "caption": "Great White Throne"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-4/1200/800",
-        "caption": ""
+        "src": "photos/zion-2025/04-zion-canyon-virgin-river.jpg",
+        "caption": "Zion Canyon and the Virgin River"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-5/1200/800",
-        "caption": ""
+        "src": "photos/zion-2025/05-zion-lodge-flag.jpg",
+        "caption": "Zion Lodge"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-6/800/1100",
-        "caption": ""
+        "src": "photos/zion-2025/06-court-of-the-patriarchs.jpg",
+        "caption": "Court of the Patriarchs"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-7/1200/800",
-        "caption": ""
+        "src": "photos/zion-2025/07-angels-landing.jpg",
+        "caption": "Angels Landing"
       },
       {
-        "src": "https://picsum.photos/seed/zion-2025-8/1200/800",
-        "caption": ""
+        "src": "photos/zion-2025/08-angels-landing-chains.jpg",
+        "caption": "Chains on the Angels Landing Trail"
+      },
+      {
+        "src": "photos/zion-2025/09-chipmunk.jpg",
+        "caption": "Cliff chipmunk"
+      },
+      {
+        "src": "photos/zion-2025/10-chipmunk-2.jpg",
+        "caption": "Cliff chipmunk"
+      },
+      {
+        "src": "photos/zion-2025/11-angels-landing-from-valley.jpg",
+        "caption": "Angels Landing"
+      },
+      {
+        "src": "photos/zion-2025/12-watchman-panorama.jpg",
+        "caption": "Towers of the Virgin and The Watchman"
+      },
+      {
+        "src": "photos/zion-2025/13-bighorn-sheep.jpg",
+        "caption": "Desert bighorn sheep"
+      },
+      {
+        "src": "photos/zion-2025/14-bighorn-sheep-2.jpg",
+        "caption": "Desert bighorn sheep"
       }
     ]
   },
