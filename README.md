@@ -39,7 +39,7 @@ Open `collections.js`. For each collection you can change:
 - `title`, `year`: shown on the card and collection page
 - `group`: drives the filter buttons (currently International, Series, National Parks, United States)
 - `description`: an optional paragraph at the top of the collection
-- `cover`: which photo appears on the home page card, e.g. `"photos/zion-2025/angels-landing.jpg"`
+- `cover`: only used if a collection has no photos; otherwise each home-page card shows a random photo from its collection on every visit
 - `caption` on any photo: shown on hover and in the full-screen viewer
 
 The order of collections in the file is the order on the site.

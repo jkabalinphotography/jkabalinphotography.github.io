@@ -239,10 +239,6 @@ const COLLECTIONS = [
     "cover": "photos/lighthouses/nc-bodie-island-lighthouse.jpg",
     "photos": [
       {
-        "src": "photos/lighthouses/cabo-da-roca-lighthouse.jpg",
-        "caption": "Cabo da Roca Lighthouse, Portugal"
-      },
-      {
         "src": "photos/lighthouses/iceland-dyrholaey-lighthouse.jpg",
         "caption": "Dyrhólaey Lighthouse, Iceland"
       },
@@ -285,6 +281,14 @@ const COLLECTIONS = [
       {
         "src": "photos/lighthouses/nc-currituck-beach-lighthouse.jpg",
         "caption": "Currituck Beach Lighthouse, North Carolina"
+      },
+      {
+        "src": "photos/lighthouses/portugal-belem-lighthouse.jpg",
+        "caption": "Belém Lighthouse, Portugal"
+      },
+      {
+        "src": "photos/lighthouses/portugal-cabo-da-roca-lighthouse.jpg",
+        "caption": "Cabo da Roca Lighthouse, Portugal"
       }
     ]
   },
@@ -365,8 +369,16 @@ const COLLECTIONS = [
         "caption": "Atlantic puffins"
       },
       {
-        "src": "photos/wildlife/peacock.jpg",
-        "caption": "Peacock"
+        "src": "photos/wildlife/portugal-muscovy-duck.jpg",
+        "caption": "Muscovy duck"
+      },
+      {
+        "src": "photos/wildlife/portugal-peacock-portrait.jpg",
+        "caption": "Peacock, São Jorge Castle"
+      },
+      {
+        "src": "photos/wildlife/portugal-peacocks-sparring.jpg",
+        "caption": "Peacocks sparring, São Jorge Castle"
       },
       {
         "src": "photos/wildlife/zion-bighorn-sheep-2.jpg",
@@ -966,11 +978,187 @@ const COLLECTIONS = [
     "year": "2026",
     "group": "International",
     "description": "",
-    "cover": "photos/portugal-2026/pena-palace.jpg",
+    "cover": "photos/portugal-2026/01-tram-praca-do-comercio.jpg",
     "photos": [
       {
-        "src": "photos/portugal-2026/pena-palace.jpg",
+        "src": "photos/portugal-2026/01-tram-praca-do-comercio.jpg",
+        "caption": "Tram 25, Praça do Comércio, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/02-lisboa-sign.jpg",
+        "caption": "Praça do Comércio, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/03-rua-augusta-arch.jpg",
+        "caption": "Rua Augusta Arch, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/04-king-jose-statue.jpg",
+        "caption": "Statue of King José I, Praça do Comércio"
+      },
+      {
+        "src": "photos/portugal-2026/05-azulejo-snowflake.jpg",
+        "caption": "Azulejos, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/06-umbrella-street.jpg",
+        "caption": "Umbrella street, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/07-azulejo-modern-mural.jpg",
+        "caption": "Azulejo mural, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/08-azulejo-blue-squares.jpg",
+        "caption": "Azulejos, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/09-azulejo-blue-scrolls.jpg",
+        "caption": "Azulejos, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/10-sao-jorge-castle.jpg",
+        "caption": "São Jorge Castle, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/11-marques-de-pombal.jpg",
+        "caption": "Marquês de Pombal monument, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/12-yellow-building.jpg",
+        "caption": "Baixa, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/13-azulejo-yellow-stars.jpg",
+        "caption": "Azulejos, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/14-azulejo-blue-circles.jpg",
+        "caption": "Azulejos, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/15-tram-578.jpg",
+        "caption": "Tram 28, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/16-lisbon-cathedral.jpg",
+        "caption": "Lisbon Cathedral"
+      },
+      {
+        "src": "photos/portugal-2026/17-bougainvillea.jpg",
+        "caption": "Bougainvillea, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/18-azulejo-lisbon-mural.jpg",
+        "caption": "Azulejo panel of the Lisbon waterfront"
+      },
+      {
+        "src": "photos/portugal-2026/19-alfama-skyline.jpg",
+        "caption": "Alfama and the Tagus, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/20-alfama-rooftops.jpg",
+        "caption": "Rooftops of Alfama, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/21-belem-tower.jpg",
+        "caption": "Belém Tower, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/22-belem-lighthouse.jpg",
+        "caption": "Belém Lighthouse, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/23-muscovy-duck.jpg",
+        "caption": "Muscovy duck"
+      },
+      {
+        "src": "photos/portugal-2026/24-jeronimos-monastery.jpg",
+        "caption": "Jerónimos Monastery, Belém"
+      },
+      {
+        "src": "photos/portugal-2026/25-azulejo-yellow-scallops.jpg",
+        "caption": "Azulejos, Lisbon"
+      },
+      {
+        "src": "photos/portugal-2026/26-lisbon-flag-castle.jpg",
+        "caption": "Flag of Lisbon, São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/27-peacock-portrait.jpg",
+        "caption": "Peacock, São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/28-castle-garden-statue.jpg",
+        "caption": "Statue at São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/29-sao-jorge-castle-tower.jpg",
+        "caption": "Tower of São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/30-lisbon-from-the-castle.jpg",
+        "caption": "Lisbon from São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/31-peacocks-sparring.jpg",
+        "caption": "Peacocks sparring, São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/32-moorish-castle.jpg",
+        "caption": "Moorish Castle, Sintra"
+      },
+      {
+        "src": "photos/portugal-2026/33-pena-palace-distant.jpg",
         "caption": "Pena Palace, Sintra"
+      },
+      {
+        "src": "photos/portugal-2026/34-pena-palace-and-moorish-castle.jpg",
+        "caption": "Pena Palace and the Moorish Castle, Sintra"
+      },
+      {
+        "src": "photos/portugal-2026/35-pena-palace.jpg",
+        "caption": "Pena Palace, Sintra"
+      },
+      {
+        "src": "photos/portugal-2026/36-pena-palace-yellow-tower.jpg",
+        "caption": "Pena Palace, Sintra"
+      },
+      {
+        "src": "photos/portugal-2026/37-pena-palace-clock-tower.jpg",
+        "caption": "Clock tower of Pena Palace, Sintra"
+      },
+      {
+        "src": "photos/portugal-2026/38-cabo-da-roca-lighthouse.jpg",
+        "caption": "Cabo da Roca Lighthouse"
+      },
+      {
+        "src": "photos/portugal-2026/39-praia-da-ursa-panorama.jpg",
+        "caption": "Praia da Ursa, Sintra coast"
+      },
+      {
+        "src": "photos/portugal-2026/40-praia-da-ursa-sea-stack.jpg",
+        "caption": "Sea stack at Praia da Ursa"
+      },
+      {
+        "src": "photos/portugal-2026/41-rua-augusta-arch-2.jpg",
+        "caption": "Rua Augusta Arch, Praça do Comércio"
+      },
+      {
+        "src": "photos/portugal-2026/42-azulejo-lisbon-mural-panorama.jpg",
+        "caption": "Azulejo panel of the Lisbon waterfront"
+      },
+      {
+        "src": "photos/portugal-2026/43-castle-window-view.jpg",
+        "caption": "Lisbon through a window of São Jorge Castle"
+      },
+      {
+        "src": "photos/portugal-2026/44-praia-da-ursa-sea-stacks.jpg",
+        "caption": "Sea stacks at Praia da Ursa"
+      },
+      {
+        "src": "photos/portugal-2026/45-portuguese-flag.jpg",
+        "caption": "Flag of Portugal"
       }
     ]
   },

@@ -26,13 +26,18 @@ const observer = new IntersectionObserver((entries) => {
 }, { rootMargin: "0px 0px -40px 0px" });
 
 // ── Home: collection cards ─────────────────────────────────────
+// Each card shows a random photo from its collection, so the page changes on
+// every visit. Falls back to the "cover" photo for an empty collection.
+const randomCover = (c) =>
+  c.photos.length ? c.photos[Math.floor(Math.random() * c.photos.length)].src : c.cover;
+
 const cards = COLLECTIONS.map((c) => {
   const a = document.createElement("a");
   a.className = "collection-card";
   a.href = `#/${c.slug}`;
   a.dataset.group = c.group || "";
   a.innerHTML = `
-    <div class="card-img"><img src="${escapeHtml(c.cover)}" alt="${escapeHtml(c.title)}" loading="lazy" decoding="async"></div>
+    <div class="card-img"><img src="${escapeHtml(randomCover(c))}" alt="${escapeHtml(c.title)}" loading="lazy" decoding="async"></div>
     <div class="card-text">
       <h3>${escapeHtml(c.title)}</h3>
       <p>${escapeHtml(metaLine(c))}<span>${c.photos.length} photo${c.photos.length === 1 ? "" : "s"}</span></p>
