@@ -289,6 +289,10 @@ const COLLECTIONS = [
     "cover": "photos/wildlife/iceland-puffin-with-catch.jpg",
     "photos": [
       {
+        "src": "photos/wildlife/bryce-chipmunk.jpg",
+        "caption": "Chipmunk, Bryce Canyon National Park"
+      },
+      {
         "src": "photos/wildlife/canyonlands-lizard.jpg",
         "caption": "Lizard, Canyonlands National Park"
       },
@@ -670,11 +674,111 @@ const COLLECTIONS = [
     "year": "2025",
     "group": "National Parks",
     "description": "",
-    "cover": "photos/bryce-canyon-2025/thors-hammer.jpg",
+    "cover": "photos/bryce-canyon-2025/06-thors-hammer-aspen.jpg",
     "photos": [
       {
-        "src": "photos/bryce-canyon-2025/thors-hammer.jpg",
+        "src": "photos/bryce-canyon-2025/01-milky-way.jpg",
+        "caption": "Milky Way over Bryce Canyon"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/02-hoodoos-morning-light.jpg",
+        "caption": "Hoodoos in morning light"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/03-hoodoos-and-pine.jpg",
+        "caption": "Hoodoos and ponderosa pine"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/04-thors-hammer.jpg",
         "caption": "Thor's Hammer"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/05-thors-hammer-closeup.jpg",
+        "caption": "Thor's Hammer"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/06-thors-hammer-aspen.jpg",
+        "caption": "Thor's Hammer framed by aspen"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/07-thors-hammer-through-aspen.jpg",
+        "caption": "Thor's Hammer through the aspen"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/08-thors-hammer-blue-sky.jpg",
+        "caption": "Thor's Hammer"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/09-thors-hammer-valley-view.jpg",
+        "caption": "Thor's Hammer above the valley"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/10-hoodoo-windows.jpg",
+        "caption": "Hoodoo windows"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/11-chipmunk.jpg",
+        "caption": "Chipmunk in a juniper"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/12-queens-garden-trail-tunnel.jpg",
+        "caption": "Tunnel on the Queen's Garden Trail"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/13-rock-windows.jpg",
+        "caption": "Rock windows"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/14-hoodoo-wall-panorama.jpg",
+        "caption": "Wall of hoodoos"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/15-thistle.jpg",
+        "caption": "Thistle in bloom"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/16-tower-bridge.jpg",
+        "caption": "Tower Bridge"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/17-milky-way-2.jpg",
+        "caption": "Milky Way over Bryce Canyon"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/18-amphitheater-panorama.jpg",
+        "caption": "Bryce Amphitheater"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/19-hoodoo-detail.jpg",
+        "caption": "Hoodoos"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/20-hoodoo-fins.jpg",
+        "caption": "Hoodoo fins"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/21-amphitheater-wide-panorama.jpg",
+        "caption": "Bryce Amphitheater"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/22-hoodoo-and-spire.jpg",
+        "caption": "Hoodoos and spire"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/23-cliff-alcoves.jpg",
+        "caption": "Alcoves in the cliffs"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/24-hoodoo-columns.jpg",
+        "caption": "Hoodoo columns"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/25-natural-bridge.jpg",
+        "caption": "Natural Bridge"
+      },
+      {
+        "src": "photos/bryce-canyon-2025/26-agua-canyon.jpg",
+        "caption": "The Hunter, Agua Canyon"
       }
     ]
   },
@@ -927,6 +1031,18 @@ const COLLECTIONS = [
       {
         "src": "photos/utah/10-cottonwoods-autumn.jpg",
         "caption": "Cottonwoods in autumn"
+      },
+      {
+        "src": "photos/utah/11-red-canyon-hoodoos.jpg",
+        "caption": "Hoodoos of Red Canyon"
+      },
+      {
+        "src": "photos/utah/12-red-canyon-tunnel.jpg",
+        "caption": "Red Canyon Arch Tunnel, Scenic Byway 12"
+      },
+      {
+        "src": "photos/utah/13-red-canyon-panorama.jpg",
+        "caption": "Red Canyon"
       }
     ]
   }

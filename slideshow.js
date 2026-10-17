@@ -6,7 +6,7 @@
 // ─────────────────────────────────────────────────────────────
 const SLIDESHOW = [
   { src: "photos/spain-2026/sagrada-familia.jpg",             collection: "spain-2026" },
-  { src: "photos/bryce-canyon-2025/thors-hammer.jpg",         collection: "bryce-canyon-2025" },
+  { src: "photos/slideshow/thors-hammer.jpg",                 collection: "bryce-canyon-2025" },
   { src: "photos/japan-2026/kinkaku-ji.jpg",                  collection: "japan-2026" },
   { src: "photos/spain-2026/ordesa-national-park.jpg",        collection: "spain-2026" },
   { src: "photos/slideshow/puffins.jpg",                      collection: "wildlife" },
