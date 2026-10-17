@@ -255,5 +255,11 @@ toggle.addEventListener("click", () => {
 });
 document.querySelectorAll(".site-nav a").forEach((a) => a.addEventListener("click", closeMenu));
 
+// ── Photo protection ──────────────────────────────────────────
+// Blocks right-click "Save Image" and dragging photos out of the page.
+// This deters casual copying; it can't stop screenshots.
+document.addEventListener("contextmenu", (e) => { if (e.target.closest("img")) e.preventDefault(); });
+document.addEventListener("dragstart", (e) => { if (e.target.closest("img")) e.preventDefault(); });
+
 $("year").textContent = new Date().getFullYear();
 route();
