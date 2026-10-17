@@ -159,6 +159,66 @@ const COLLECTIONS = [
       {
         "src": "photos/iceland-2023/36-reykjanesviti.jpg",
         "caption": "Reykjanesviti Lighthouse"
+      },
+      {
+        "src": "photos/iceland-2023/37-icelandic-sheep.jpg",
+        "caption": "Icelandic sheep"
+      },
+      {
+        "src": "photos/iceland-2023/38-gullfoss.jpg",
+        "caption": "Gullfoss"
+      },
+      {
+        "src": "photos/iceland-2023/39-selfosskirkja.jpg",
+        "caption": "Selfoss Church"
+      },
+      {
+        "src": "photos/iceland-2023/40-puffin-portrait.jpg",
+        "caption": "Atlantic puffin"
+      },
+      {
+        "src": "photos/iceland-2023/41-puffin-portrait-2.jpg",
+        "caption": "Atlantic puffin"
+      },
+      {
+        "src": "photos/iceland-2023/42-lomagnupur.jpg",
+        "caption": "Lómagnúpur"
+      },
+      {
+        "src": "photos/iceland-2023/43-jokulsarlon-panorama.jpg",
+        "caption": "Jökulsárlón Glacier Lagoon"
+      },
+      {
+        "src": "photos/iceland-2023/44-icelandic-sheep-grazing.jpg",
+        "caption": "Icelandic sheep"
+      },
+      {
+        "src": "photos/iceland-2023/45-hvalnes-lighthouse.jpg",
+        "caption": "Hvalnes Lighthouse"
+      },
+      {
+        "src": "photos/iceland-2023/46-husavikurkirkja.jpg",
+        "caption": "Húsavík Church"
+      },
+      {
+        "src": "photos/iceland-2023/47-kirkjufell-reflection.jpg",
+        "caption": "Kirkjufell"
+      },
+      {
+        "src": "photos/iceland-2023/48-arctic-fox-closeup.jpg",
+        "caption": "Arctic fox"
+      },
+      {
+        "src": "photos/iceland-2023/49-malarrifsviti-sunrays.jpg",
+        "caption": "Malarrifsviti Lighthouse"
+      },
+      {
+        "src": "photos/iceland-2023/50-harbor-seal-eating.jpg",
+        "caption": "Harbor seal"
+      },
+      {
+        "src": "photos/iceland-2023/51-harbor-seal.jpg",
+        "caption": "Harbor seal"
       }
     ]
   },
@@ -183,6 +243,14 @@ const COLLECTIONS = [
         "caption": "Dyrhólaey Lighthouse, Iceland"
       },
       {
+        "src": "photos/lighthouses/iceland-hvalnes-lighthouse.jpg",
+        "caption": "Hvalnes Lighthouse, Iceland"
+      },
+      {
+        "src": "photos/lighthouses/iceland-malarrifsviti-sunrays.jpg",
+        "caption": "Malarrifsviti Lighthouse, Iceland"
+      },
+      {
         "src": "photos/lighthouses/iceland-malarrifsviti.jpg",
         "caption": "Malarrifsviti Lighthouse, Iceland"
       },
@@ -205,12 +273,32 @@ const COLLECTIONS = [
     "cover": "photos/wildlife/iceland-puffin-with-catch.jpg",
     "photos": [
       {
+        "src": "photos/wildlife/iceland-arctic-fox-closeup.jpg",
+        "caption": "Arctic fox"
+      },
+      {
         "src": "photos/wildlife/iceland-arctic-fox.jpg",
         "caption": "Arctic fox"
       },
       {
+        "src": "photos/wildlife/iceland-harbor-seal-eating.jpg",
+        "caption": "Harbor seal"
+      },
+      {
+        "src": "photos/wildlife/iceland-harbor-seal.jpg",
+        "caption": "Harbor seal"
+      },
+      {
         "src": "photos/wildlife/iceland-humpback-whale.jpg",
         "caption": "Humpback whale"
+      },
+      {
+        "src": "photos/wildlife/iceland-icelandic-sheep-grazing.jpg",
+        "caption": "Icelandic sheep"
+      },
+      {
+        "src": "photos/wildlife/iceland-icelandic-sheep.jpg",
+        "caption": "Icelandic sheep"
       },
       {
         "src": "photos/wildlife/iceland-oystercatcher.jpg",
@@ -219,6 +307,14 @@ const COLLECTIONS = [
       {
         "src": "photos/wildlife/iceland-puffin-in-flight.jpg",
         "caption": "Atlantic puffin in flight"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffin-portrait-2.jpg",
+        "caption": "Atlantic puffin"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffin-portrait.jpg",
+        "caption": "Atlantic puffin"
       },
       {
         "src": "photos/wildlife/iceland-puffin-with-catch-flight.jpg",
