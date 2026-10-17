@@ -16,7 +16,6 @@ const SLIDESHOW = [
   { src: "photos/slideshow/himeji-castle.jpg",               collection: "japan-2026" },
   { src: "photos/slideshow/pena-palace.jpg",                   collection: "portugal-2026" },
   { src: "photos/slideshow/cabo-da-roca-lighthouse.jpg",      collection: "lighthouses" },
-  { src: "photos/south-dakota-2026/mount-rushmore.jpg",       collection: "south-dakota-2026" },
   { src: "photos/slideshow/kirkjufell.jpg",                   collection: "iceland-2023" },
   { src: "photos/slideshow/senso-ji.jpg",                    collection: "japan-2026" },
   { src: "photos/slideshow/bodie-island-lighthouse.jpg",      collection: "lighthouses" },

@@ -21,8 +21,6 @@ The home page shows a grid of collections; each one opens its own gallery at a s
    | Spain 2026 | `photos/spain-2026/` |
    | Portugal 2026 | `photos/portugal-2026/` |
    | Japan 2026 | `photos/japan-2026/` |
-   | South Dakota 2026 | `photos/south-dakota-2026/` |
-   | Badlands National Park 2026 | `photos/badlands-2026/` |
    | North Carolina | `photos/north-carolina/` |
    | Utah | `photos/utah/` |
 

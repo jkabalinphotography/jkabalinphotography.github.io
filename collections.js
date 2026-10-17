@@ -1445,62 +1445,6 @@ const COLLECTIONS = [
     ]
   },
   {
-    "slug": "south-dakota-2026",
-    "title": "South Dakota",
-    "year": "2026",
-    "group": "United States",
-    "description": "",
-    "cover": "photos/south-dakota-2026/mount-rushmore.jpg",
-    "photos": [
-      {
-        "src": "photos/south-dakota-2026/mount-rushmore.jpg",
-        "caption": "Mount Rushmore"
-      }
-    ]
-  },
-  {
-    "slug": "badlands-2026",
-    "title": "Badlands National Park",
-    "year": "2026",
-    "group": "National Parks",
-    "description": "",
-    "cover": "https://picsum.photos/seed/badlands-2026-1/1200/800",
-    "photos": [
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-1/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-2/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-3/800/1100",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-4/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-5/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-6/800/1100",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-7/1200/800",
-        "caption": ""
-      },
-      {
-        "src": "https://picsum.photos/seed/badlands-2026-8/1200/800",
-        "caption": ""
-      }
-    ]
-  },
-  {
     "slug": "north-carolina",
     "title": "North Carolina",
     "year": "",
