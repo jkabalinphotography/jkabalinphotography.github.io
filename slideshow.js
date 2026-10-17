@@ -5,13 +5,13 @@
 // to one cover photo per collection.
 // ─────────────────────────────────────────────────────────────
 const SLIDESHOW = [
-  { src: "photos/spain-2026/sagrada-familia.jpg",             collection: "spain-2026" },
+  { src: "photos/slideshow/sagrada-familia.jpg",               collection: "spain-2026" },
   { src: "photos/slideshow/thors-hammer.jpg",                 collection: "bryce-canyon-2025" },
   { src: "photos/japan-2026/kinkaku-ji.jpg",                  collection: "japan-2026" },
-  { src: "photos/spain-2026/ordesa-national-park.jpg",        collection: "spain-2026" },
+  { src: "photos/slideshow/ordesa-national-park.jpg",          collection: "spain-2026" },
   { src: "photos/slideshow/puffins.jpg",                      collection: "wildlife" },
   { src: "photos/japan-2026/itsukushima-torii.jpg",           collection: "japan-2026" },
-  { src: "photos/spain-2026/san-juan-de-gaztelugatxe.jpg",    collection: "spain-2026" },
+  { src: "photos/slideshow/san-juan-de-gaztelugatxe.jpg",      collection: "spain-2026" },
   { src: "photos/wildlife/peacock.jpg",                       collection: "wildlife" },
   { src: "photos/japan-2026/himeji-castle.jpg",               collection: "japan-2026" },
   { src: "photos/portugal-2026/pena-palace.jpg",              collection: "portugal-2026" },

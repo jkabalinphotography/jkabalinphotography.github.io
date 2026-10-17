@@ -788,19 +788,155 @@ const COLLECTIONS = [
     "year": "2026",
     "group": "International",
     "description": "",
-    "cover": "photos/spain-2026/san-juan-de-gaztelugatxe.jpg",
+    "cover": "photos/spain-2026/15-ordesa-cliffs-mist.jpg",
     "photos": [
       {
-        "src": "photos/spain-2026/ordesa-national-park.jpg",
-        "caption": "Ordesa National Park, Pyrenees"
+        "src": "photos/spain-2026/01-ramon-berenguer-statue.jpg",
+        "caption": "Ramon Berenguer III, Barcelona"
       },
       {
-        "src": "photos/spain-2026/sagrada-familia.jpg",
-        "caption": "Sagrada Família, Barcelona"
+        "src": "photos/spain-2026/02-palau-de-justicia.jpg",
+        "caption": "Palau de Justícia, Barcelona"
       },
       {
-        "src": "photos/spain-2026/san-juan-de-gaztelugatxe.jpg",
+        "src": "photos/spain-2026/03-casa-batllo.jpg",
+        "caption": "Casa Batlló, Barcelona"
+      },
+      {
+        "src": "photos/spain-2026/04-sagrada-familia-spires.jpg",
+        "caption": "Spires of the Sagrada Família"
+      },
+      {
+        "src": "photos/spain-2026/05-park-guell-palms.jpg",
+        "caption": "Park Güell, Barcelona"
+      },
+      {
+        "src": "photos/spain-2026/06-park-guell-mosaic.jpg",
+        "caption": "Mosaic wall, Park Güell"
+      },
+      {
+        "src": "photos/spain-2026/07-girona-cathedral.jpg",
+        "caption": "Girona Cathedral"
+      },
+      {
+        "src": "photos/spain-2026/08-pyrenees-village.jpg",
+        "caption": "Village in the Pyrenees"
+      },
+      {
+        "src": "photos/spain-2026/09-pyrenees-dam.jpg",
+        "caption": "Dam in the Pyrenees"
+      },
+      {
+        "src": "photos/spain-2026/10-pyrenees-waterfall.jpg",
+        "caption": "Waterfall in the Pyrenees"
+      },
+      {
+        "src": "photos/spain-2026/11-pyrenees-waterfall-red-leaves.jpg",
+        "caption": "Waterfall in the Pyrenees"
+      },
+      {
+        "src": "photos/spain-2026/12-pyrenees-reservoir.jpg",
+        "caption": "Reservoir in the Pyrenees"
+      },
+      {
+        "src": "photos/spain-2026/13-basilica-del-pilar.jpg",
+        "caption": "Basílica del Pilar, Zaragoza"
+      },
+      {
+        "src": "photos/spain-2026/14-aljaferia-palace.jpg",
+        "caption": "Aljafería Palace, Zaragoza"
+      },
+      {
+        "src": "photos/spain-2026/15-ordesa-cliffs-mist.jpg",
+        "caption": "Ordesa National Park"
+      },
+      {
+        "src": "photos/spain-2026/16-ordesa-peak.jpg",
+        "caption": "Tozal del Mallo, Ordesa National Park"
+      },
+      {
+        "src": "photos/spain-2026/17-sorrosal-waterfall.jpg",
+        "caption": "Cascada del Sorrosal, Broto"
+      },
+      {
+        "src": "photos/spain-2026/18-ainsa.jpg",
+        "caption": "Aínsa"
+      },
+      {
+        "src": "photos/spain-2026/19-ordesa-meadow-reflection.jpg",
+        "caption": "Pradera de Ordesa"
+      },
+      {
+        "src": "photos/spain-2026/20-pamplona-balconies.jpg",
+        "caption": "Plaza del Castillo, Pamplona"
+      },
+      {
+        "src": "photos/spain-2026/21-ochagavia.jpg",
+        "caption": "Ochagavía, Navarre"
+      },
+      {
+        "src": "photos/spain-2026/22-variegated-leaves.jpg",
+        "caption": "Variegated leaves"
+      },
+      {
+        "src": "photos/spain-2026/23-la-concha-bay.jpg",
+        "caption": "La Concha Bay and Santa Clara Island, San Sebastián"
+      },
+      {
+        "src": "photos/spain-2026/24-basque-flag.jpg",
+        "caption": "The Ikurriña, the Basque flag"
+      },
+      {
+        "src": "photos/spain-2026/25-buen-pastor-cathedral.jpg",
+        "caption": "Buen Pastor Cathedral, San Sebastián"
+      },
+      {
+        "src": "photos/spain-2026/26-bay-of-biscay-sunset.jpg",
+        "caption": "Sunset over the Bay of Biscay"
+      },
+      {
+        "src": "photos/spain-2026/27-gaztelugatxe.jpg",
         "caption": "San Juan de Gaztelugatxe"
+      },
+      {
+        "src": "photos/spain-2026/28-gaztelugatxe-panorama.jpg",
+        "caption": "San Juan de Gaztelugatxe"
+      },
+      {
+        "src": "photos/spain-2026/29-gaztelugatxe-hermitage.jpg",
+        "caption": "Hermitage of San Juan de Gaztelugatxe"
+      },
+      {
+        "src": "photos/spain-2026/30-gaztelugatxe-hermitage-2.jpg",
+        "caption": "Hermitage of San Juan de Gaztelugatxe"
+      },
+      {
+        "src": "photos/spain-2026/32-park-guell-tower.jpg",
+        "caption": "Gatehouse tower, Park Güell"
+      },
+      {
+        "src": "photos/spain-2026/33-pyrenees-hill-village.jpg",
+        "caption": "Hillside village in the Pyrenees"
+      },
+      {
+        "src": "photos/spain-2026/34-basilica-del-pilar-2.jpg",
+        "caption": "Basílica del Pilar, Zaragoza"
+      },
+      {
+        "src": "photos/spain-2026/35-ordesa-river.jpg",
+        "caption": "Río Arazas, Ordesa National Park"
+      },
+      {
+        "src": "photos/spain-2026/36-ordesa-cliffs-mist-2.jpg",
+        "caption": "Ordesa National Park"
+      },
+      {
+        "src": "photos/spain-2026/37-ainsa-stone-houses.jpg",
+        "caption": "Stone houses of Aínsa"
+      },
+      {
+        "src": "photos/spain-2026/38-pamplona-bullring.jpg",
+        "caption": "Plaza de Toros, Pamplona"
       }
     ]
   },
