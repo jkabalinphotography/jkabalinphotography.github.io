@@ -14,15 +14,151 @@ const COLLECTIONS = [
     "year": "2023",
     "group": "International",
     "description": "",
-    "cover": "photos/iceland-2023/kirkjufell.jpg",
+    "cover": "photos/iceland-2023/02-hengifoss.jpg",
     "photos": [
       {
-        "src": "photos/iceland-2023/kirkjufell.jpg",
-        "caption": "Kirkjufell"
+        "src": "photos/iceland-2023/01-solheimajokull-glacier.jpg",
+        "caption": "Sólheimajökull Glacier"
       },
       {
-        "src": "photos/iceland-2023/puffins.jpg",
+        "src": "photos/iceland-2023/02-hengifoss.jpg",
+        "caption": "Hengifoss"
+      },
+      {
+        "src": "photos/iceland-2023/03-hrossaborg-crater.jpg",
+        "caption": "Hrossaborg Crater"
+      },
+      {
+        "src": "photos/iceland-2023/04-kolgrafarfjordur-bridge.jpg",
+        "caption": "Kolgrafarfjörður Bridge"
+      },
+      {
+        "src": "photos/iceland-2023/05-sun-voyager-reykjavik.jpg",
+        "caption": "Sun Voyager, Reykjavík"
+      },
+      {
+        "src": "photos/iceland-2023/06-helgufoss.jpg",
+        "caption": "Helgufoss, Mosfellsbær"
+      },
+      {
+        "src": "photos/iceland-2023/07-thingvellir-church.jpg",
+        "caption": "Þingvellir Church"
+      },
+      {
+        "src": "photos/iceland-2023/08-oxararfoss.jpg",
+        "caption": "Öxarárfoss, Þingvellir"
+      },
+      {
+        "src": "photos/iceland-2023/09-bruarfoss.jpg",
+        "caption": "Brúarfoss"
+      },
+      {
+        "src": "photos/iceland-2023/10-skogafoss.jpg",
+        "caption": "Skógafoss"
+      },
+      {
+        "src": "photos/iceland-2023/11-puffins.jpg",
         "caption": "Atlantic puffins"
+      },
+      {
+        "src": "photos/iceland-2023/12-dyrholaey-lighthouse.jpg",
+        "caption": "Dyrhólaey Lighthouse"
+      },
+      {
+        "src": "photos/iceland-2023/13-dyrholaey-arch.jpg",
+        "caption": "Dyrhólaey"
+      },
+      {
+        "src": "photos/iceland-2023/14-reynisdrangar.jpg",
+        "caption": "Reynisdrangar, Vík"
+      },
+      {
+        "src": "photos/iceland-2023/15-vik-church.jpg",
+        "caption": "Vík Church"
+      },
+      {
+        "src": "photos/iceland-2023/16-fjadrargljufur.jpg",
+        "caption": "Fjaðrárgljúfur Canyon"
+      },
+      {
+        "src": "photos/iceland-2023/17-svartifoss.jpg",
+        "caption": "Svartifoss"
+      },
+      {
+        "src": "photos/iceland-2023/18-jokulsarlon.jpg",
+        "caption": "Jökulsárlón Glacier Lagoon"
+      },
+      {
+        "src": "photos/iceland-2023/19-vestrahorn.jpg",
+        "caption": "Vestrahorn, Stokksnes"
+      },
+      {
+        "src": "photos/iceland-2023/20-seydisfjordur-blue-church.jpg",
+        "caption": "Blue Church, Seyðisfjörður"
+      },
+      {
+        "src": "photos/iceland-2023/21-puffin-in-flight.jpg",
+        "caption": "Atlantic puffin in flight"
+      },
+      {
+        "src": "photos/iceland-2023/22-grjotagja-cave.jpg",
+        "caption": "Grjótagjá Cave, Mývatn"
+      },
+      {
+        "src": "photos/iceland-2023/23-humpback-whale.jpg",
+        "caption": "Humpback whale"
+      },
+      {
+        "src": "photos/iceland-2023/24-hvitserkur.jpg",
+        "caption": "Hvítserkur"
+      },
+      {
+        "src": "photos/iceland-2023/25-skardsviti.jpg",
+        "caption": "Skarðsviti Lighthouse"
+      },
+      {
+        "src": "photos/iceland-2023/26-kirkjufell.jpg",
+        "caption": "Kirkjufell and Kirkjufellsfoss"
+      },
+      {
+        "src": "photos/iceland-2023/27-arctic-fox.jpg",
+        "caption": "Arctic fox"
+      },
+      {
+        "src": "photos/iceland-2023/28-malarrifsviti.jpg",
+        "caption": "Malarrifsviti Lighthouse"
+      },
+      {
+        "src": "photos/iceland-2023/29-oystercatcher.jpg",
+        "caption": "Eurasian oystercatcher"
+      },
+      {
+        "src": "photos/iceland-2023/30-budakirkja.jpg",
+        "caption": "Búðakirkja, Snæfellsnes"
+      },
+      {
+        "src": "photos/iceland-2023/31-hallgrimskirkja.jpg",
+        "caption": "Hallgrímskirkja, Reykjavík"
+      },
+      {
+        "src": "photos/iceland-2023/32-elephant-rock-heimaey.jpg",
+        "caption": "Elephant Rock, Heimaey"
+      },
+      {
+        "src": "photos/iceland-2023/33-puffin.jpg",
+        "caption": "Atlantic puffin"
+      },
+      {
+        "src": "photos/iceland-2023/34-puffin-with-catch-flight.jpg",
+        "caption": "Atlantic puffin with its catch"
+      },
+      {
+        "src": "photos/iceland-2023/35-puffin-with-catch.jpg",
+        "caption": "Atlantic puffin with its catch"
+      },
+      {
+        "src": "photos/iceland-2023/36-reykjanesviti.jpg",
+        "caption": "Reykjanesviti Lighthouse"
       }
     ]
   },
@@ -41,6 +177,22 @@ const COLLECTIONS = [
       {
         "src": "photos/lighthouses/cabo-da-roca-lighthouse.jpg",
         "caption": "Cabo da Roca Lighthouse, Portugal"
+      },
+      {
+        "src": "photos/lighthouses/iceland-dyrholaey-lighthouse.jpg",
+        "caption": "Dyrhólaey Lighthouse, Iceland"
+      },
+      {
+        "src": "photos/lighthouses/iceland-malarrifsviti.jpg",
+        "caption": "Malarrifsviti Lighthouse, Iceland"
+      },
+      {
+        "src": "photos/lighthouses/iceland-reykjanesviti.jpg",
+        "caption": "Reykjanesviti Lighthouse, Iceland"
+      },
+      {
+        "src": "photos/lighthouses/iceland-skardsviti.jpg",
+        "caption": "Skarðsviti Lighthouse, Iceland"
       }
     ]
   },
@@ -50,15 +202,43 @@ const COLLECTIONS = [
     "year": "",
     "group": "Series",
     "description": "",
-    "cover": "photos/wildlife/peacock.jpg",
+    "cover": "photos/wildlife/iceland-puffin-with-catch.jpg",
     "photos": [
+      {
+        "src": "photos/wildlife/iceland-arctic-fox.jpg",
+        "caption": "Arctic fox"
+      },
+      {
+        "src": "photos/wildlife/iceland-humpback-whale.jpg",
+        "caption": "Humpback whale"
+      },
+      {
+        "src": "photos/wildlife/iceland-oystercatcher.jpg",
+        "caption": "Eurasian oystercatcher"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffin-in-flight.jpg",
+        "caption": "Atlantic puffin in flight"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffin-with-catch-flight.jpg",
+        "caption": "Atlantic puffin with its catch"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffin-with-catch.jpg",
+        "caption": "Atlantic puffin with its catch"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffin.jpg",
+        "caption": "Atlantic puffin"
+      },
+      {
+        "src": "photos/wildlife/iceland-puffins.jpg",
+        "caption": "Atlantic puffins"
+      },
       {
         "src": "photos/wildlife/peacock.jpg",
         "caption": "Peacock"
-      },
-      {
-        "src": "photos/wildlife/puffins.jpg",
-        "caption": "Atlantic puffins"
       }
     ]
   },
