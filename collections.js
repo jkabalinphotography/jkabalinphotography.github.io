@@ -219,6 +219,14 @@ const COLLECTIONS = [
       {
         "src": "photos/iceland-2023/51-harbor-seal.jpg",
         "caption": "Harbor seal"
+      },
+      {
+        "src": "photos/iceland-2023/52-vestrahorn-panorama.jpg",
+        "caption": "Vestrahorn, Stokksnes"
+      },
+      {
+        "src": "photos/iceland-2023/53-vestrahorn-black-sand-dunes.jpg",
+        "caption": "Vestrahorn and the black sand dunes of Stokksnes"
       }
     ]
   },
@@ -489,6 +497,18 @@ const COLLECTIONS = [
       {
         "src": "photos/arches-2024/26-turret-arch-through-north-window.jpg",
         "caption": "Turret Arch through North Window"
+      },
+      {
+        "src": "photos/arches-2024/27-double-arch-closeup.jpg",
+        "caption": "Double Arch"
+      },
+      {
+        "src": "photos/arches-2024/28-double-arch.jpg",
+        "caption": "Double Arch"
+      },
+      {
+        "src": "photos/arches-2024/29-park-avenue-juniper.jpg",
+        "caption": "Juniper on the Park Avenue Trail"
       }
     ]
   },
