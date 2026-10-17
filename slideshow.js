@@ -19,7 +19,7 @@ const SLIDESHOW = [
   { src: "photos/south-dakota-2026/mount-rushmore.jpg",       collection: "south-dakota-2026" },
   { src: "photos/slideshow/kirkjufell.jpg",                   collection: "iceland-2023" },
   { src: "photos/japan-2026/senso-ji.jpg",                    collection: "japan-2026" },
-  { src: "photos/lighthouses/bodie-island-lighthouse.jpg",    collection: "lighthouses" },
+  { src: "photos/slideshow/bodie-island-lighthouse.jpg",      collection: "lighthouses" },
   { src: "photos/japan-2026/hiroshima-castle.jpg",            collection: "japan-2026" },
   { src: "photos/arches-2024/delicate-arch.jpg",              collection: "arches-2024" },
   { src: "photos/japan-2026/shitenno-ji.jpg",                 collection: "japan-2026" },

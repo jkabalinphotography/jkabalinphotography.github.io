@@ -12,8 +12,8 @@ const lbCaption = $("lb-caption");
 
 const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-// Year under the title; ongoing series without a year say "Series" instead.
-const metaLine = (c) => c.year || (c.group === "Series" ? "Series" : "");
+// Year under the title; collections without a year are ongoing series.
+const metaLine = (c) => c.year || "Series";
 
 // Fade items in as they scroll into view
 const observer = new IntersectionObserver((entries) => {

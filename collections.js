@@ -228,12 +228,8 @@ const COLLECTIONS = [
     "year": "",
     "group": "Series",
     "description": "",
-    "cover": "photos/lighthouses/bodie-island-lighthouse.jpg",
+    "cover": "photos/lighthouses/nc-bodie-island-lighthouse.jpg",
     "photos": [
-      {
-        "src": "photos/lighthouses/bodie-island-lighthouse.jpg",
-        "caption": "Bodie Island Lighthouse, North Carolina"
-      },
       {
         "src": "photos/lighthouses/cabo-da-roca-lighthouse.jpg",
         "caption": "Cabo da Roca Lighthouse, Portugal"
@@ -261,6 +257,26 @@ const COLLECTIONS = [
       {
         "src": "photos/lighthouses/iceland-skardsviti.jpg",
         "caption": "Skarðsviti Lighthouse, Iceland"
+      },
+      {
+        "src": "photos/lighthouses/nc-bodie-island-lighthouse-bw.jpg",
+        "caption": "Bodie Island Lighthouse, North Carolina"
+      },
+      {
+        "src": "photos/lighthouses/nc-bodie-island-lighthouse-top.jpg",
+        "caption": "Bodie Island Lighthouse, North Carolina"
+      },
+      {
+        "src": "photos/lighthouses/nc-bodie-island-lighthouse.jpg",
+        "caption": "Bodie Island Lighthouse, North Carolina"
+      },
+      {
+        "src": "photos/lighthouses/nc-currituck-beach-lighthouse-top.jpg",
+        "caption": "Currituck Beach Lighthouse, North Carolina"
+      },
+      {
+        "src": "photos/lighthouses/nc-currituck-beach-lighthouse.jpg",
+        "caption": "Currituck Beach Lighthouse, North Carolina"
       }
     ]
   },
@@ -587,6 +603,40 @@ const COLLECTIONS = [
       {
         "src": "https://picsum.photos/seed/badlands-2026-8/1200/800",
         "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "north-carolina",
+    "title": "North Carolina",
+    "year": "",
+    "group": "United States",
+    "description": "",
+    "cover": "photos/north-carolina/03-bodie-island-lighthouse.jpg",
+    "photos": [
+      {
+        "src": "photos/north-carolina/01-bodie-island-lighthouse-top.jpg",
+        "caption": "Bodie Island Lighthouse"
+      },
+      {
+        "src": "photos/north-carolina/02-bodie-island-lighthouse-bw.jpg",
+        "caption": "Bodie Island Lighthouse"
+      },
+      {
+        "src": "photos/north-carolina/03-bodie-island-lighthouse.jpg",
+        "caption": "Bodie Island Lighthouse"
+      },
+      {
+        "src": "photos/north-carolina/04-currituck-beach-lighthouse-top.jpg",
+        "caption": "Currituck Beach Lighthouse, Corolla"
+      },
+      {
+        "src": "photos/north-carolina/05-currituck-beach-lighthouse.jpg",
+        "caption": "Currituck Beach Lighthouse, Corolla"
+      },
+      {
+        "src": "photos/north-carolina/06-outer-banks-dunes.jpg",
+        "caption": "Sea oats on the Outer Banks"
       }
     ]
   }
